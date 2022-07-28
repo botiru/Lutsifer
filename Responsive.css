@@ -1,0 +1,91 @@
+@media screen and (max-width: 2000px) {
+    .nav h1 {
+        font-size: 60px;
+    }
+    .header {
+        font-size: 50px;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .nav h1 {
+        font-size: 40px;
+    }
+    .header {
+        font-size: 30px;
+    }
+    .cards {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 992px) {
+    .nav h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .header {
+        font-size: 34px;
+        background-color: yellow;
+    }
+    .card {
+        width: 400px;
+        height: 400px;
+    }
+    .cards {
+        display: block;
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .nav h1 {
+        font-size: 40px;
+    }
+    .header {
+        font-size: 34px;
+    }
+    .card {
+        width: 350px;
+        height: 350px;
+    }
+    .cards {
+        display: block;
+        margin-left: 35px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .nav h1 {
+        font-size: 30px;
+        text-align: left;
+    }
+    .header {
+        font-size: 24px;
+    }
+    .card {
+        width: 250px;
+        height: 250px;
+    }
+    .cards {
+        display: block;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .nav h1 {
+        font-size: 20px;
+    }
+    .header {
+        font-size: 16px;
+    }
+    .card {
+        width: 100px;
+        height: 100px;
+    }
+    .cards {
+        display: block;
+        margin-left: 15px;
+    }
+}
